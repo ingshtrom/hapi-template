@@ -1,0 +1,39 @@
+{
+  "name": "hapi-template",
+  "version": "0.0.1",
+  "description": "hapi server template including logger and grunt tasks. This supports both Javascript and CoffeeScript, even in the same module.",
+  "author": "Alex Hokanson <alex.hokanson@mysticgear.com>",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "hapi"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.3.11",
+    "good": "^4.0.0",
+    "hapi": "^7.5.2",
+    "string": "^2.2.0",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-counter": "^1.0.0",
+    "coffeelint": "^1.6.1",
+    "glob": "^4.0.6",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-hapi": "^0.8.1",
+    "load-grunt-tasks": "^1.0.0",
+    "mocha": "^2.0.1",
+    "request": "^2.48.0"
+  }
+}
