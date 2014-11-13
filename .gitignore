@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-node_modules
-log
-logs
-build
-test-out
-=======
 # Logs
+log
 logs
 *.log
 
@@ -33,4 +27,7 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
->>>>>>> 43c0ca5ee6b5665a68e69a39469c4101a6148aa1
+
+# custom
+build
+test-out
