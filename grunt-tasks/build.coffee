@@ -8,7 +8,9 @@ module.exports = (grunt) ->
   grunt.registerTask "build", ->
     grunt.task.run [
       "clean"
-      "coffeelint:app"
+      "coffeelint"
+      'jshint'
       "create-struct"
       "coffee"
+      "copy"
     ]

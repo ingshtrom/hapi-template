@@ -3,7 +3,8 @@ module.exports = {
     files: [
       {
         expand: true,
-        src: ['<%= gruntConfig.srcDir %>/**/*.js'],
+        cwd: '<%= gruntConfig.srcDir %>',
+        src: ['**/*.js'],
         dest: '<%= gruntConfig.pubDir %>',
         filter: 'isFile'
       }

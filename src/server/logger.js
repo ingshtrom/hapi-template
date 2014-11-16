@@ -4,7 +4,7 @@ var winston = require('winston'),
 require('string').extendPrototype();
 
 
-module.exports = function() {
+var getLogger = function() {
   consoleConfig = {
     level: config.logger.logLevel,
     handleExceptions: true,
@@ -26,3 +26,5 @@ module.exports = function() {
     exitOnError: false
   });
 };
+
+module.exports = getLogger();

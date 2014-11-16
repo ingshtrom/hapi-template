@@ -4,7 +4,8 @@ var loadConfig = function(path) {
     key;
 
   glob.sync('*', {cwd: path}).forEach(function(option) {
-    key = option.replace(/\.coffee$/,'');
+    key = option.replace(/\.coffee$/,'')
+                .replace(/\.js$/,'');
     object[key] = require(path + option);
   });
   return object;
@@ -18,7 +19,7 @@ module.exports = function(grunt) {
       env: process.env
     };
 
-  grunt.util._.extend(config, loadConfig('./tasks/options/'));
+  grunt.util._.extend(config, loadConfig('./grunt-tasks/options/'));
   grunt.initConfig(config);
   require('load-grunt-tasks')(grunt);
   grunt.loadTasks("grunt-tasks");
