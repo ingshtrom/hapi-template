@@ -9,4 +9,4 @@ TODO:
 - [x] run jshint selectively
 - [x] test grunt tasks
 - [x] create test template
-- [] add code coverage
+- [ ] add code coverage
