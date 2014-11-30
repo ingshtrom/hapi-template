@@ -5,6 +5,7 @@ require('string').extendPrototype();
 
 
 var getLogger = function() {
+  var consoleConfig, fileConfig;
   consoleConfig = {
     level: config.logger.logLevel,
     handleExceptions: true,
