@@ -1,6 +1,6 @@
 var Hapi = require('hapi'),
     logger = require('./logger'),
-    config = require('./app-config'),
+    config = require('./config'),
     routeConfig = require('./api/').config,
     packConfig = require('./hapi-pack-config').config;
 
