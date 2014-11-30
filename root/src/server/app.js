@@ -1,4 +1,4 @@
-var config = require('./app-config'),
+var config = require('./config'),
     logger = require('./logger'),
     server = require('./hapi-server');
 
