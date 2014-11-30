@@ -1,5 +1,5 @@
 var winston = require('winston'),
-    config = require('./app-config');
+    config = require('./config');
 
 require('string').extendPrototype();
 
