@@ -1,5 +1,5 @@
 var path = require('path'),
-    config = require('./app-config'),
+    config = require('./config'),
     pkg = require('../../package.json');
 
 
