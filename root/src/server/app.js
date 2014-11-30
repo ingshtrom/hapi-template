@@ -2,7 +2,7 @@ var config = require('./config'),
     logger = require('./logger'),
     server = require('./hapi-server');
 
-module.exports = function() {
+module.exports.init = function() {
   myHapi = server.start();
   // database.start();
 
